@@ -1,0 +1,1 @@
+{"name":"Local: alice_bob","url":"e:\\5.XPSC\\2_contest\\contest3\\alice_bob.cpp","tests":[{"id":1762184263633,"input":"2\n3\n100 200 300\n300 200 100\n4\n1000 1000 1000 1000\n400 500 600 1200","output":"1\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\5.XPSC\\2_contest\\contest3\\alice_bob.cpp","group":"local","local":true}
