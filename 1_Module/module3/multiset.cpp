@@ -24,7 +24,7 @@ int main()
     int n;
     cin >> n;
     multiset<int> s;
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
         int x;
         cin >> x;
@@ -37,7 +37,7 @@ int main()
     cout << '\n';
 
 
-    //find
+    //find 
 
     auto f = s.find(4);
     if (f != s.end())
@@ -47,7 +47,7 @@ int main()
     else
         cout << "not found" << '\n';
 
-    s.erase(2); //0(logn+k) multiset a 2 joto bar ase sob erase hoia jabe
+    s.erase(2); //0(logn+k) multiset a 2 joto bar ase sob erase(muse  jabe) hoia jabe
 
     for(auto value : s){
         cout<<value<<" ";
