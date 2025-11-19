@@ -59,6 +59,6 @@ int main()
 
 
 
-    // set short value rakhe...20 9 6 200 9 4 ,,
+    // set short value rakhe...20 9 6 200 9 4 ,,and unic value rakhe,,kono duplicate value rakhe na
     // akn eitar begin() ber korte chaile 4 ashbe
 }
