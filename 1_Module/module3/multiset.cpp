@@ -53,6 +53,7 @@ int main()
         cout<<value<<" ";
     }
     cout<<'\n';
+    cout<<s.count(9)<<'\n'; //9 2 bar ase
 
 
     return 0;
