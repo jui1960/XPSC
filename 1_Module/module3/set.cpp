@@ -36,7 +36,7 @@ int main()
     else
         cout << "not found" << '\n';
 
-    // lower bound
+    // lower bound  y khujbe ,,y jody na pai taile y er kasakasi sobchaia boro value return korbe
 
     // int y;
     // cin >> y;
@@ -46,7 +46,7 @@ int main()
 
 
 
-    //uper bound
+    //uper bound  y kjuhbee ,,jody y na pai tar theke kasakasi soto value ta return korbe
     
     int y;
     cin >> y;
