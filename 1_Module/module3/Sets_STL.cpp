@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+//simple programm using sets
 
 int main()
 {
