@@ -58,3 +58,5 @@ int main()
 
     return 0;
 }
+
+//multiset a sorasori erase korleee joto duplicate  value ase sob muse jai,,bt jody find kor nia then erase kora hoi taile matro 1 ta value erase ba delete hoia jaigi
