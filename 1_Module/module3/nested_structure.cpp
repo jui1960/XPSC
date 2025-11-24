@@ -44,16 +44,34 @@ int main()
     s3.insert(6);
     s3.insert(8);
 
-    mp[5] =s1;
-    mp[7] =s2;
-    mp[10] =s3;
+    mp[5] = s1;
+    mp[7] = s2;
+    mp[10] = s3;
 
-    for(auto [x,y] :mp){
-        cout<<x<<"-> ";
-        for(auto val:y){
-            cout<<val<<" ";
+    for (auto [x, y] : mp)
+    {
+        cout << x << "-> ";
+        for (auto val : y)
+        {
+            cout << val << " ";
         }
-        cout<<'\n';
+        cout << '\n';
+    }
+    int x = 6, y = 8;
+    auto LB1 = mp.lower_bound(x);
+    if (LB1 != mp.end())
+    {
+        int ans = LB1->first;
+        cout<<ans<<'\n';
+
+        auto LB2 = mp[ans].lower_bound(y);
+        if (LB2 != mp[ans].end())
+        {
+            cout<<*LB2<<'\n';
+        }
+        else{
+            cout<<"not found"<<"\n";
+        }
     }
 
     return 0;
